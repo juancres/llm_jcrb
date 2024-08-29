@@ -91,10 +91,18 @@ Enviar peticiones al servidor local formato normal
 
 git add .
 
-git commit -m UPDATE README.md"
+git commit -m "UPDATE README.md"
 
 git push -u origin main
 
+````
+
+# **9. Comandos GITHUB** #
+
+Documentacion
+
+```` bash
+https://github.com/ollama/ollama/blob/main/docs/api.md
 ````
 
 
