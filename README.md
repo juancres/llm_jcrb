@@ -9,12 +9,12 @@ para la maquina virtual
 ```` bash
  Ejecutar curl -fsSL https://ollama.com/install.sh | sh
 
+````
 
 
+# **1.1 Instalacion** #
 
-# **1. Instalacion** #
-
-1. Como primer paso descargar en Ollama en https://ollama.com/download/linux
+ descargar en Ollama en https://ollama.com/download/linux
 
 ```` bash
  Ejecutar curl -fsSL https://ollama.com/install.sh | sh
