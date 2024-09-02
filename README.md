@@ -1,6 +1,17 @@
 # llm_jcrb
 Repositorio para creacion de lenguajes de programacion
 
+# **1. ingresar a Gitpod** #
+
+1. Como primer paso ingresar a https://juancres-llmjcrb-8ffyn8onse8.ws-us115.gitpod.io/
+para la maquina virtual
+
+```` bash
+ Ejecutar curl -fsSL https://ollama.com/install.sh | sh
+
+
+
+
 # **1. Instalacion** #
 
 1. Como primer paso descargar en Ollama en https://ollama.com/download/linux
@@ -9,7 +20,7 @@ Repositorio para creacion de lenguajes de programacion
  Ejecutar curl -fsSL https://ollama.com/install.sh | sh
 
 ````
-# **2. Ejecutar el servidor** #
+# **1.1 Ejecutar el servidor** #
 
 
 Ejecutar el servidor de API REST de cliente con el siguiente comando:
