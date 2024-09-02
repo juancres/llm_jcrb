@@ -3,15 +3,12 @@ Repositorio para creacion de lenguajes de programacion
 
 # **1. ingresar a Gitpod** #
 
+```` bash
 1. Como primer paso ingresar a https://juancres-llmjcrb-8ffyn8onse8.ws-us115.gitpod.io/
 para la maquina virtual
 
-```` bash
- Ejecutar curl -fsSL https://ollama.com/install.sh | sh
-
 ````
-
-
+ 
 # **1.1 Instalacion** #
 
  descargar en Ollama en https://ollama.com/download/linux
@@ -123,4 +120,16 @@ sobre los temas de ia
 
 ```` bash
 https://github.com/salvadorhm/introduccion_ia_generativa/wiki
+````
+```` bash
+https://github.com/ollama/ollama/blob/main/docs/api.md
+
+````
+
+
+# **10. nueva herramienta para conectar otras IA ** #
+
+```` bash
+https://console.groq.com/playground
+
 ````
