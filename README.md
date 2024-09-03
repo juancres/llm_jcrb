@@ -132,6 +132,10 @@ https://github.com/ollama/ollama/blob/main/docs/api.md
 ```` bash
 https://console.groq.com/playground
 
+documentacion
+
+https://console.groq.com/docs/quickstart
+
 curl
 
 
