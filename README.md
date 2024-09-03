@@ -132,4 +132,14 @@ https://github.com/ollama/ollama/blob/main/docs/api.md
 ```` bash
 https://console.groq.com/playground
 
+curl
+
+
+  curl -X POST "https://api.groq.com/openai/v1/chat/completions" \
+     -H "Authorization: Bearer $GROQ_API_KEY" \
+     -H "Content-Type: application/json" \
+     -d '{"messages": [{"role": "user", "content": "¿porque el cielo es azul?"}], "model": "llama3-8b-8192"}'
+
 ````
+
+
