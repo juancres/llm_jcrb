@@ -121,8 +121,15 @@ sobre los temas de ia
 ```` bash
 https://github.com/salvadorhm/introduccion_ia_generativa/wiki
 ````
+# ** Ollama** #
+
 ```` bash
 https://github.com/ollama/ollama/blob/main/docs/api.md
+````
+# ** pagina de documentacion de lenguajes de programacion** #
+
+```` bash
+https://www.w3schools.com/python/default.asp
 
 ````
 
@@ -142,8 +149,23 @@ curl
   curl -X POST "https://api.groq.com/openai/v1/chat/completions" \
      -H "Authorization: Bearer $GROQ_API_KEY" \
      -H "Content-Type: application/json" \
-     -d '{"messages": [{"role": "user", "content": "¿porque el cielo es azul?"}], "model": "llama3-8b-8192"}'
+     -d '{"messages": [{"role": "user", "content": "cual es la velocidad de conexion mas rapida de internet en el mundo"}], "model": "llama3-8b-8192"}'
 
 ````
+# ** python** #
 
 
+```` bash
+
+import requests
+
+url = 'http://localhost:11434/api/generate'
+myobj = {
+    "model": "tinyllama",
+    "prompt":  "cual es la velocidad de conexion mas rapida de internet en el mundo",
+    "stream": False
+}
+x = requests.post(url, json = myobj)
+print(x.text)
+
+````
